@@ -8,7 +8,7 @@ Desc: To test intention, just write test code here!
 import pathlib
 
 from akshare.datasets import get_ths_js, get_crypto_info_csv
-from akshare.air_zhenqi import air_city_table, air_quality_watch_point, air_quality_hist, air_quality_rank
+from akshare.air.air_zhenqi import air_city_table, air_quality_watch_point, air_quality_hist, air_quality_rank
 
 
 def test_cost_living():
